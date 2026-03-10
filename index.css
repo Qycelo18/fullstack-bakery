@@ -1,0 +1,63 @@
+.brand {
+  color: olive;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  gap: 2ch;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1ch;
+}
+
+aside {
+  padding: 1ch;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  background-color: olive;
+  gap: 1ch;
+}
+
+li {
+  padding: 1ch;
+}
+
+nav {
+  display: flex;
+  gap: 1ch;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 1ch;
+  padding-right: 1ch;
+}
+
+.testimonial {
+  font-style: italic;
+  background-color: antiquewhite;
+  padding: 1ch;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 1ch;
+  text-align: center;
+}
